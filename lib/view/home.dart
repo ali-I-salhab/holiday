@@ -1,6 +1,5 @@
 import 'dart:convert';
 
-import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:holiday/controller/homecontroller.dart';
@@ -116,11 +115,11 @@ class Home extends GetView<HomepageController> {
                                   ),
                                   InkWell(
                                     onTap: () async {
-                                      final dio = Dio();
-                                      final response = await dio.post(
-                                        'https://jsonplaceholder.typicode.com/posts',
-                                      );
-                                      print(response.data);
+                                      // final dio = Dio();
+                                      // final response = await dio.post(
+                                      //   'https://jsonplaceholder.typicode.com/posts',
+                                      // );
+                                      // print(response.data);
                                       // // HttpHeaders.contentTypeHeader: 'application/x-www-form-urlencoded'
                                       // Dio dio = new Dio();
                                       // dio.options.headers[
